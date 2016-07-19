@@ -1,0 +1,132 @@
+@charset 'utf-8';
+html {
+    // width: 100%;
+    font-size: 62.5%;
+    font-family: 'SimHei';
+    background: #fff;
+
+}
+// body {
+//     background: #FFF;
+//     width: 100%;
+// }
+// .body {
+//     background: #fff;
+// }
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor:default;
+    list-style-type: none;
+    -webkit-appearance:none;
+}
+.header {
+    background: #F7AB00;
+    position: relative;
+    height: 4.6rem;
+    p {
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2.4rem;
+    color: #fff;
+    // font-weight: bold;
+    }
+    img {
+    width: 100%;
+    display: block;
+    }
+    .link1 {
+    position: absolute;
+    top:0.5rem;
+    left: 3%;
+    }
+    .link2 {
+    position: absolute;
+    top:0.5rem;
+    right: 3%;
+    }
+}
+.view {
+    align: center;
+    margin: 5%;
+    width: 90%;
+    height: 50%;
+    // width: 600px;
+    height: 365px;
+    max-height: 400px;
+    // background: #ddd;
+    background: #ddd url('../img/1.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    // padding-top:20px;
+    .backg {
+        // height: 11%;
+        // height: 40px;
+        // width: 200px;
+        // background: #F7AB00;
+        // position: absolute;
+        // top: 221px;
+    }
+}
+.list1 {
+    height: 29px;
+    width: 100px;
+    background: #F7AB00;
+    margin-left: 5%;
+    p {
+    font-size: 2.1rem;
+    color: #fff;
+    padding: 2px 4px 2px 4px;
+    }
+}
+.list11 {
+    // margin: 3% 5% 3% 5%;
+    // margin-left: 5%;
+    width: 100%;
+    // text-align: center;
+    figure {
+    height: 280px;
+    width: 42%;
+    border: none;
+    background: #ededed url('../img/l1.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: inline-block;
+    margin: 1% 0% 1% 5%;
+    }
+}
+.footer {
+    height: 65px;
+    background: #fff;
+    width: 99%;
+    position:fixed;
+    // position: absolute;
+    bottom: 0%;
+    left: 0;
+
+    ul li {
+        display: inline-block;
+        width: 23%;
+        background: #fff;
+        a {
+            color: #F7AB00;
+
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .view {
+    height: 170px;
+    }
+    .list11 figure {
+        height: 100px;
+    }
+}
