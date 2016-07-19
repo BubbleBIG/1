@@ -1,18 +1,11 @@
 @charset 'utf-8';
 html {
-    // width: 100%;
+    width: 100%;
     font-size: 62.5%;
     font-family: 'SimHei';
     background: #fff;
 
 }
-// body {
-//     background: #FFF;
-//     width: 100%;
-// }
-// .body {
-//     background: #fff;
-// }
 *{
     margin: 0;
     padding: 0;
@@ -54,23 +47,13 @@ html {
     width: 90%;
     height: 50%;
     // width: 600px;
-    height: 365px;
+    height: 380px;
     max-height: 400px;
-    // background: #ddd;
     background: #ddd url('../img/1.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    // padding-top:20px;
-    .backg {
-        // height: 11%;
-        // height: 40px;
-        // width: 200px;
-        // background: #F7AB00;
-        // position: absolute;
-        // top: 221px;
-    }
 }
 .list1 {
     height: 29px;
@@ -85,26 +68,32 @@ html {
 }
 .list11 {
     // margin: 3% 5% 3% 5%;
-    // margin-left: 5%;
+    margin-left: 5%;
     width: 100%;
-    // text-align: center;
+    text-align: center;
     figure {
     height: 280px;
-    width: 42%;
+    width: 43%;
     border: none;
     background: #ededed url('../img/l1.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: inline-block;
-    margin: 1% 0% 1% 5%;
+    // display: inline-block;
+    float: left;
+    margin: 2% 4% 1% 0%;
     }
 }
+.more {
+    clear:both;
+    text-align: center;
+    margin-bottom: 65px;
+}
 .footer {
-    height: 65px;
+    height: 60px;
     background: #fff;
-    width: 99%;
+    width: 100%;
     position:fixed;
     // position: absolute;
     bottom: 0%;
