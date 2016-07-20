@@ -1,0 +1,39 @@
+@charset "UTF-8";
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+    cursor:default;
+    -webkit-appearance:none;
+}
+a {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+.body{
+
+}
+/*img{
+    width: 100%;
+}
+a,img,button,input,textarea{
+    color: #000000;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}*/
+.actGotop {
+    position: fixed;
+    bottom: 8rem;
+    right: 2%;
+    display: none;
+}
+.actGotop img{
+    width: 40px;
+}

@@ -3,7 +3,7 @@ html {
     width: 100%;
     font-size: 62.5%;
     font-family: 'SimHei';
-    background: #fff;
+    // background: #fff;
 
 }
 *{
@@ -51,69 +51,41 @@ html {
     right: 3%;
     }
 }
-.view {
-    align: center;
-    margin: 5%;
-    width: 90%;
-    height: 50%;
-    // width: 600px;
-    height: 380px;
-    max-height: 400px;
-    background: #ddd url('../img/1.png');
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.list1 {
-    height: 29px;
-    width: 100px;
-    background: #F7AB00;
-    margin-left: 5%;
-    p {
-    font-size: 2.1rem;
-    color: #fff;
-    padding: 2px 4px 1px 4px;
-    }
-}
+
 .list11 {
     // margin: 3% 5% 3% 5%;
-    margin-left: 5%;
+    // margin-left: 5%;
+
+    margin-top: 70px;
     width: 100%;
     text-align: center;
     figure {
     height: 280px;
     width: 43%;
     border: none;
-    background: #ededed url('../img/l1.png');
+    // background: #ededed url('../img/l1.png');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
     // position:absolute;
-    // display: inline-block;
-    float: left;
-    margin: 2% 4% 1% 0%;
-    .null {
-        // width: 43%;
-        margin-bottom: 254px;
-    }
+    display: inline-block;
+    // float: left;
+    margin: 0 1% 10% 1%;
     .name {
+        text-align: right;
         height: 27px;
         background: #F7AB00;
         font-size: 2.1rem;
-        // margin-bottom: -150px;
-        filter:alpha(opacity=80);
-        -moz-opacity:0.8;
-        -khtml-opacity:0.8;
-        opacity:0.8;
-        m {
-            color: #fff;
-            font-size: 1.8rem;
-            padding-right: 3%;
-        }
-
+        margin-top: -30px;
+        filter:alpha(opacity=77);
+        -moz-opacity:0.77;
+        -khtml-opacity:0.77;
+        opacity:0.77;
+        color: #fff;
+        padding-top: 2px;
+        padding-right: 3%;
     }
     }
 }
@@ -147,20 +119,22 @@ html {
     .view {
     height: 170px;
     }
-    .list11 figure {
-        height: 100px;
-        .null {
-        // width: 43%;
-        margin-bottom: 81px;
-    }
-    .name {
-        height: 18px;
-        font-size: 1.0rem;
-        padding-bottom: 19px;
-        m {
-        font-size: 1.6rem;
+    .list11 {
 
+        figure {
+            height: 100px;
+
+            margin: 0 1% 2% 1%;
+            a {
+                margin: 0 2% 0 0;
+            }
+
+            .name {
+                height: 17px;
+                font-size: 1.0rem;
+                // padding-bottom: 19px;
+                margin-top: -20px;
+            }
         }
-    }
     }
 }

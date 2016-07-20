@@ -12,11 +12,31 @@
 <body>
 <div class="body">
     <div class="header">
-        <!-- <div class="header1"> -->
-        <a href="###" class="link1"><img src="img/back.png" style="width: 45px;"/></a>
-        <p>分类浏览</p>
-        <a href="###" class="link2"><img src="img/search.png" style="width: 45px;"/></a>
-        <!-- </div> -->
+    <!-- <div class="back"> -->
+        <a href="#" class="back"><img src="img/back.png" style="width: 45px;"/></a>
+    <!-- </div> -->
+        <p>首页</p>
+        <div id="searchform">
+        <form class="searchform">
+        <table>
+        <tr>
+        <td align="right">
+        <div class="input">
+        <input class="thing" style="height: 40px;border:none;border-radius: 3px;" />
+        </div>
+        </td>
+        <td>
+        <div class="button">
+        <input type="image" width="" id="search" class="search" height="" style="height: 45px;vertical-align:middle;margin-top: 1px" src="img/search.png" />
+        </div>
+        </td>
+        </tr>
+        </table>
+        </form>
+        <div id="button">
+        <a href="###" class="b1"><img src="img/search.png" style="height: 45px;width: 45px;"></a>
+        </div>
+        </div>
     </div>
     <div class="view">
         <!-- <img src="img/1.png" style="" /> -->
@@ -77,26 +97,6 @@
                     <!-- <img src="./img/l1.png" style="width: ;" /> -->
                 </a>
             </figure>
-            <figure>
-                <a href="#">
-                    <!-- <img src="./img/l1.png" style="width: ;" /> -->
-                </a>
-            </figure>
-            <figure>
-                <a href="#">
-                    <!-- <img src="./img/l1.png" style="width: ;" /> -->
-                </a>
-            </figure>
-            <figure>
-                <a href="#">
-                    <!-- <img src="./img/l1.png" style="width: ;" /> -->
-                </a>
-            </figure>
-            <figure>
-                <a href="#">
-                    <!-- <img src="./img/l1.png" style="width: ;" /> -->
-                </a>
-            </figure>
         <!-- </ul> -->
     </div>
 
@@ -107,21 +107,35 @@
     <div class="footer" align="center">
         <hr>
         <ul>
-            <li align='center'>
-                <a href="#"><img src="./img/home.png" /><p>首页</p></a>
+            <li align='center' style="width: ;padding: 1px;">
+                <a href="###"><img src="./img/home.png" style="width: 40px" /><p>首页</p></a>
             </li>
-            <li align='center'>
-                <a href="#"><img src="./img/shopcart.png" /><p>购物车</p></a>
+            <li align='center' style="width: ;padding: 1px;">
+                <a href="###"><img src="./img/shopcart.png" style="width: 40px" /><p>购物车</p></a>
             </li>
-            <li align='center'>
-                <a href="#"><img src="./img/person.png" /><p>个人中心</p></a>
+            <li align='center' style="width: ;padding: 1px;">
+                <a href="###"><img src="./img/person.png" style="width: 40px"/><p>个人中心</p></a>
             </li>
-            <li align='center'>
-                <a href="#"><img src="./img/classify.png" /><p>全部分类</p></a>
+            <li align='center' style="width: ;padding: 1px;">
+                <a href="###"><img src="./img/classify.png" style="width: 40px"/><p>全部分类</p></a>
             </li>
         </ul>
     </div>
 </div>
-<div class="actGotop"><a href="javascript:;" title="返回顶部"></a> <img src="img/up.png" alt=""></div>
+<div class="actGotop"><a href="javascript:;" title="返回顶部"></a><img src="img/up.png" alt="">
+</div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.b1').click(function() {
+            $('.searchform').slideToggle('show');
+            $('.thing').focus();
+            $('#button').hide();
+        });
+        $('.thing').mouseout(function() {
+            $('.searchform').hide();
+            $('#button').toggle();
+        });
+    });
+</script>
 </body>
 </html>
