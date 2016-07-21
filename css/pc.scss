@@ -62,9 +62,12 @@ body {
     margin-bottom: 10px;
     ul li {
         display: inline-block;
-        width: 40%;
+        width: 45%;
         font-size: 15px;
         font-weight: bold;
+    }
+    img {
+        vertical-align:middle;
     }
 }
 .table {
