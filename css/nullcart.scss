@@ -54,51 +54,35 @@ body {
     right: 3%;
     }
 }
-#main {
-    margin: 5%;
-}
-.main {
-    margin-top: 66px;
-    margin-bottom: 10px;
-    ul li {
-        display: inline-block;
-        width: 48%;
-        font-size: 15px;
+.body {
+    margin-top: 60px;
+    .message {
+        margin-top: 208px;
+        p {
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+    button {
+        width: 90%;
+        height: 28px;
+        font-size: 19px;
         font-weight: bold;
+        border: none;
+        border-radius: 7px;
+        color: #fff;
+        background: #F7AB00;
+        margin-top: 32px;
+        margin-bottom: 30px;
     }
-    img {
-        vertical-align:middle;
+    .login {
+        font-size: 19px;
+        font-weight: bold;
+        margin-left: 5%;
+        a {color: #000;}
     }
 }
-.table {
-    margin-top: 10px;
-    img {
-        vertical-align:middle;
-    }
-    table, th, td {
-    // border: none;
-    }
-    table th {
-        background: #F5F5F5;
-        font-weight: normal;
-    }
-    table {
-        border-collapse: collapse;
-        border-spacing: 0;
-        width: 100%;
-        font-size: 16px;
-    }
-    tr {
-        height: 35px;
-    }
-    tr th, tr td {
-        padding: 3px 5px;
-    }
-    tr {
-    border: 1px solid #ddd;
-    }
 
-}
 .more {
     clear:both;
     text-align: center;
