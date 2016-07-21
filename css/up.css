@@ -30,9 +30,10 @@ a,img,button,input,textarea{
 }*/
 .actGotop {
     position: fixed;
-    bottom: 8rem;
-    right: 2%;
+    bottom: 6rem;
+    right: 0%;
     display: none;
+    z-index: 1;
 }
 .actGotop img{
     width: 40px;

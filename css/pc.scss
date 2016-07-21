@@ -1,0 +1,127 @@
+@charset 'utf-8';
+html {
+    width: 100%;
+    font-size: 62.5%;
+    font-family: 'SimHei';
+    // background: #fff;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor:default;
+    list-style-type: none;
+    -webkit-appearance:none;
+}
+body {
+    // background: #fff;
+}
+.header {
+    background: #F7AB00;
+    // position: relative;
+    height: 54px;
+    width: 100%;
+    position:fixed;
+    top: 0px;
+    left: 0;
+    z-index: 1;
+
+    p {
+    text-align: center;
+    line-height: 5rem;
+    font-size: 2.4rem;
+    color: #fff;
+    display: block;
+    // font-weight: bold;
+    }
+    img {
+    width: 100%;
+    display: block;
+    }
+    .link1 {
+    // position: absolute;
+    position:fixed;
+    top:0.5rem;
+    left: 3%;
+    display: block;
+    }
+    .link2 {
+    // position: absolute;
+    position:fixed;
+    top:0.5rem;
+    right: 3%;
+    }
+}
+#main {
+    margin: 5%;
+}
+.main {
+    margin-top: 66px;
+    margin-bottom: 10px;
+    ul li {
+        display: inline-block;
+        width: 40%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+.table {
+    margin-top: 10px;
+    img {
+        vertical-align:middle;
+    }
+    table, th, td {
+    // border: none;
+    }
+    table th {
+        background: #F5F5F5;
+        font-weight: normal;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        font-size: 16px;
+    }
+    tr {
+        height: 35px;
+    }
+    tr th, tr td {
+        padding: 3px 5px;
+    }
+    tr {
+    border: 1px solid #ddd;
+    }
+
+}
+// .more {
+//     clear:both;
+//     text-align: center;
+//     margin-bottom: 65px;
+// }
+.footer {
+    height: 58px;
+    background: #fff;
+    width: 100%;
+    position:fixed;
+    // position: absolute;
+    bottom: 0%;
+    left: 0;
+    border-top: 1px solid #ddd;
+    ul li {
+        display: inline-block;
+        width: 23%;
+        background: #fff;
+        a {
+            color: #F7AB00;
+
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+}
