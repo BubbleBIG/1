@@ -60,12 +60,14 @@ body {
 }
 .title {
     // margin: 0% 5% 0 5%;
+    height: 25px;
     ul li {
 
         // display: inline-block;
         float: left;
         width: 25%;
         margin: 10px 0 20px 0;
+        // &:hover {
         :hover {
             border-bottom: 2px solid #E83600;
             padding-bottom: 4px;}

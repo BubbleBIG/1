@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="css/shopcart.css"/>
     <link rel="stylesheet" type="text/css" href="css/up.css">
     <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/shopcart.js"></script>
     <script type="text/javascript" src="js/up.js"></script>
 </head>
 <body>
-<div class="body">
     <div class="header">
         <!-- <div class="header1"> -->
         <a href="###" class="link1"><img src="img/back.png" style="width: 45px;"/></a>
@@ -39,8 +39,8 @@
                     </li>
                     <li class="word">
                         <p>2016年最新款。。。</p>
-                        <p>单价：￥210元</p>
-                        <p>总计：￥210元</p>
+                        <p>单价：<span style="" >￥</span><input type="text" value="210" class="one" disabled="disabled" style="border: none;font-weight: bold;width: 66px;color: #000;"></p>
+                        <p>总计：<m class="total"></m></p>
                         <p>备注：</p>
                     </li>
                     <li class="edit3" align='right'>
@@ -50,7 +50,7 @@
                     </div>
                     <div class="num">
                     <input class="remove" type="image" src="img/remove.png" style="width: 16px;">
-                    <input style="width: 26px;padding: 1px 3px 1px 3px;"></input>
+                    <input class="num1" type="text" value="1" style="width: 26px;padding: 1px 3px 1px 3px;text-align: center;border: none;background: #dcdcdc">
                     <input class="add" type="image" src="img/add.png" style="width: 16px;">
                     </div>
                     </div>
@@ -65,8 +65,8 @@
                     </li>
                     <li class="word">
                         <p>2016年最新款。。。</p>
-                        <p>单价：￥210元</p>
-                        <p>总计：￥210元</p>
+                        <p>单价：<span style="" >￥</span><input type="text" value="330" class="one2" disabled="disabled" style="border: none;font-weight: bold;width: 66px;color: #000;"></p>
+                        <p>总计：<m class="total2"></m></p>
                         <p>备注：</p>
                     </li>
                     <li class="edit3" align='right'>
@@ -75,9 +75,9 @@
                     <a href="###"><img src="img/del.png" style="width: 40px;height: 40px;"></a>
                     </div>
                     <div class="num">
-                    <input class="remove" type="image" src="img/remove.png" style="width: 16px;">
-                    <input style="width: 26px;padding: 1px 3px 1px 3px;"></input>
-                    <input class="add" type="image" src="img/add.png" style="width: 16px;">
+                    <input class="remove1" type="image" src="img/remove.png" style="width: 16px;">
+                    <input class="num2" type="text" value="1" style="width: 26px;padding: 1px 3px 1px 3px;text-align: center;border: none;background: #dcdcdc">
+                    <input class="add1" type="image" src="img/add.png" style="width: 16px;">
                     </div>
                     </div>
                     </li>
@@ -90,7 +90,7 @@
     <div class="account">
         <ul class="acc">
         <li style="width: 30%"><button>继续购物</button></li>
-        <li class="count" style="width: 40%"><div><p>合计：￥XXX</p><m>不含运费</m></div></li>
+        <li class="count" style="width: 40%"><div><p class="totalall"></p><m>不含运费</m></div></li>
         <li align='right' style="width: 30%"><button>结算</button></li>
         </ul>
 
